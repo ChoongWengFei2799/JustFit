@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "860435411446",
+    "firebase_url": "https://justfit-d628a.firebaseio.com",
+    "project_id": "justfit-d628a",
+    "storage_bucket": "justfit-d628a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860435411446:android:f7d05c8c2cc9050074d7d7",
+        "android_client_info": {
+          "package_name": "com.example.justfit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860435411446-dobbmff5kssft48bpf5o3d0dfi8p8kkt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.justfit",
+            "certificate_hash": "cb114893fc83867b269b048d2bd11a06ea36fd1c"
+          }
+        },
+        {
+          "client_id": "860435411446-chud9di7347ujlpdgli9i66d9goldsue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcsyTutPTQiufEM_BxjthcPDkBZLqQkjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860435411446-chud9di7347ujlpdgli9i66d9goldsue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

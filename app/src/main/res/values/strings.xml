@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">JustFit</string>
+    <string name="title_home">Home</string>
+    <string name="title_food">Food</string>
+    <string name="title_profile">Profile</string>
+    <string name="add"> + Add Exercise</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="started">Get Started</string>
+    <string name="begineers">Beginners</string>
+    <string name="veterans">Veterans</string>
+    <string name="text1">Please Select Your Level :</string>
+    <string name="JJ">Jumping Jacks \n(20 seconds)</string>
+    <string name="AC">Abdominal Crunches \n(30 seconds)</string>
+    <string name="MC">Mountain Climber \n(30 seconds)</string>
+    <string name="LR">Leg Raises \n(30 seconds)</string>
+    <string name="Plank">Plank \n(20 seconds)</string>
+    <string name="JJ2">Jumping Jacks \n(40 seconds)</string>
+    <string name="AC2">Abdominal Crunches \n(60 seconds)</string>
+    <string name="MC2">Mountain Climber \n(60 seconds)</string>
+    <string name="LR2">Leg Raises \n(60 seconds)</string>
+    <string name="Plank2">Plank \n(40 seconds)</string>
+    <string name="cong">congratz</string>
+    <string name="done">Well Done</string>
+    <string name="back">Back</string>
+    <string name="VR">Click to view Recipe</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="reIn">Press to Add Previews Guest Data to Current Account</string>
+</resources>

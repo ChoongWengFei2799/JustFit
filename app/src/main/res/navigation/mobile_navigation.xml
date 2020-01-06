@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.justfit.ui.home.HomeFragment"
+        android:label="@string/title_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_allFragment"
+            app:destination="@id/allFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_exerciseFragment"
+            app:destination="@id/exerciseFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_addFragment"
+            app:destination="@id/addFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_exerciseHFragment"
+            app:destination="@id/exerciseHFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_food"
+        android:name="com.example.justfit.ui.food.FoodFragment"
+        android:label="@string/title_food" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.justfit.ui.profile.ProfileFragment"
+        android:label="@string/title_profile" >
+        <action
+            android:id="@+id/action_navigation_profile_to_registerFragment"
+            app:destination="@+id/register_Fragment" />
+        <action
+            android:id="@+id/action_navigation_profile_to_login_Fragment"
+            app:destination="@id/login_Fragment" />
+        <action
+            android:id="@+id/action_navigation_profile_to_navigation_home"
+            app:destination="@id/navigation_home" />
+        <action
+            android:id="@+id/action_navigation_profile_to_change_Password_Fragment"
+            app:destination="@id/change_Password_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/allFragment"
+        android:name="com.example.justfit.ui.all.AllFragment"
+        android:label="AllFragment" >
+        <action
+            android:id="@+id/action_allFragment_to_navigation_home"
+            app:destination="@+id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/register_Fragment"
+        android:name="com.example.justfit.ui.register.RegisterFragment"
+        android:label="RegisterFragment" >
+        <action
+            android:id="@+id/action_register_Fragment_to_navigation_profile"
+            app:destination="@id/navigation_profile" />
+        <action
+            android:id="@+id/action_register_Fragment_to_login_Fragment"
+            app:destination="@id/login_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/login_Fragment"
+        android:name="com.example.justfit.ui.login.LoginFragment"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_login_Fragment_to_navigation_profile"
+            app:destination="@id/navigation_profile" />
+    </fragment>
+    <fragment
+        android:id="@+id/change_Password_Fragment"
+        android:name="com.example.justfit.ui.profile.ChangePasswordFragment"
+        android:label="ChangePasswordFragment" >
+        <action
+            android:id="@+id/action_change_Password_Fragment_to_navigation_profile"
+            app:destination="@id/navigation_profile" />
+    </fragment>
+    <fragment
+        android:id="@+id/exerciseFragment"
+        android:name="com.example.justfit.ui.exercise.ExerciseFragment"
+        android:label="ExerciseFragment" >
+        <action
+            android:id="@+id/action_exerciseFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+        <action
+            android:id="@+id/action_exerciseFragment_to_exerciseStartFragment"
+            app:destination="@id/exerciseStartFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exerciseStartFragment"
+        android:name="com.example.justfit.ui.exercise.ExerciseStartFragment"
+        android:label="ExerciseStartFragment" >
+        <action
+            android:id="@+id/action_exerciseStartFragment_to_exerciseDoneFragment"
+            app:destination="@id/exerciseDoneFragment" />
+        <action
+            android:id="@+id/action_exerciseStartFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/exerciseDoneFragment"
+        android:name="com.example.justfit.ui.exercise.ExerciseDoneFragment"
+        android:label="ExerciseDoneFragment" >
+        <action
+            android:id="@+id/action_exerciseDoneFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.example.justfit.ui.all.AddFragment"
+        android:label="AddFragment" >
+        <action
+            android:id="@+id/action_addFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/exerciseHFragment"
+        android:name="com.example.justfit.ui.exercise.ExerciseHFragment"
+        android:label="ExerciseHFragment" >
+        <action
+            android:id="@+id/action_exerciseHFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+        <action
+            android:id="@+id/action_exerciseHFragment_to_exerciseHardFragment"
+            app:destination="@id/exerciseHardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exerciseHardFragment"
+        android:name="com.example.justfit.ui.exercise.ExerciseHardFragment"
+        android:label="ExerciseHardFragment" >
+        <action
+            android:id="@+id/action_exerciseHardFragment_to_exerciseDoneFragment"
+            app:destination="@id/exerciseDoneFragment" />
+        <action
+            android:id="@+id/action_exerciseHardFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+</navigation>
