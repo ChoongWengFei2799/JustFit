@@ -25,7 +25,14 @@
     <fragment
         android:id="@+id/navigation_food"
         android:name="com.example.justfit.ui.food.FoodFragment"
-        android:label="@string/title_food" />
+        android:label="@string/title_food" >
+        <action
+            android:id="@+id/action_navigation_food_to_recipe1Fragment"
+            app:destination="@id/recipe1Fragment" />
+        <action
+            android:id="@+id/action_navigation_food_to_recipe2Fragment"
+            app:destination="@id/recipe2Fragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_profile"
@@ -139,4 +146,12 @@
             android:id="@+id/action_exerciseHardFragment_to_navigation_home"
             app:destination="@id/navigation_home" />
     </fragment>
+    <fragment
+        android:id="@+id/recipe1Fragment"
+        android:name="com.example.justfit.ui.food.Recipe1Fragment"
+        android:label="Recipe1Fragment" />
+    <fragment
+        android:id="@+id/recipe2Fragment"
+        android:name="com.example.justfit.ui.food.Recipe2Fragment"
+        android:label="Recipe2Fragment" />
 </navigation>
