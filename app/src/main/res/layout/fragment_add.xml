@@ -16,7 +16,7 @@
             android:background="@color/colorPrimary"
             android:fontFamily="sans-serif-light"
             android:gravity="center"
-            android:text="Change Password"
+            android:text="Add new Exercise"
             android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
