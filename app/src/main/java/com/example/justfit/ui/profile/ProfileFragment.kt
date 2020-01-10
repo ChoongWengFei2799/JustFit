@@ -83,6 +83,8 @@ class ProfileFragment : Fragment() {
             view?.findNavController()?.navigate(R.id.action_navigation_profile_to_navigation_home)
         }
 
+        binding.Alarm.setOnClickListener{ view?.findNavController()?.navigate(R.id.action_navigation_profile_to_alarmFragment) }
+
         binding.registerbutton.setOnClickListener{ view?.findNavController()?.navigate(R.id.action_navigation_profile_to_registerFragment) }
 
         binding.loginbutton.setOnClickListener{view?.findNavController()?.navigate(R.id.action_navigation_profile_to_login_Fragment)}

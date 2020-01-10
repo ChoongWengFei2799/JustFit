@@ -50,6 +50,9 @@
         <action
             android:id="@+id/action_navigation_profile_to_change_Password_Fragment"
             app:destination="@id/change_Password_Fragment" />
+        <action
+            android:id="@+id/action_navigation_profile_to_alarmFragment"
+            app:destination="@id/alarmFragment" />
     </fragment>
     <fragment
         android:id="@+id/allFragment"
@@ -154,4 +157,8 @@
         android:id="@+id/recipe2Fragment"
         android:name="com.example.justfit.ui.food.Recipe2Fragment"
         android:label="Recipe2Fragment" />
+    <fragment
+        android:id="@+id/alarmFragment"
+        android:name="com.example.justfit.ui.profile.AlarmFragment"
+        android:label="AlarmFragment" />
 </navigation>
